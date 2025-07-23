@@ -69,7 +69,64 @@ body{
   font-size: 1.4rem;
   margin-top: 13px;
 }
-.right-content {
+
+
+/* ====================== Plants Section =========================== */
+.plant-heading{
+  margin-top: 120px;
+  text-align: center;
+}
+.plant-heading h1{
+  font-weight: bold;
+  font-size: 3.125rem;
+}
+.our{
+ color: #E95A08; 
+}
+.plant-heading p{
+  color: rgba(0, 0, 0, 0.5);
+font-size: 1.4rem;
+width: 888px;
+margin: 16px auto;
+}
+
+/*==================== card ===================================*/
+.card-parents{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 2px;
+  
+}
+.card{
+  margin-bottom: 30px;
+  width: 270px;
+  height: 484px;
+}
+.card h3{
+  color: #111111;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 30px;
+}
+.card h2{
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card button{
+  width: 270px;
+  background-color: #E95A08;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 13px 0px;
+  border: none;
+  margin-top: 30px;
 }
 
 
@@ -93,11 +150,34 @@ body{
  } 
  .left-content h1{
   margin-left: 16px;
-  font-size: 1.9rem;
+  font-size: 2.3rem;
   margin-top: 28px;
  }
  .left-content p{
   margin: 16px;
  }
+ .plant-heading p{
+  width: 340px;
+ }
+.plant-heading h1{
+  margin-top: -20px;
+}
+ .card-parents{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ grid-gap: 5px;
+ justify-items: center;
+ 
+ }
+ .card img{
+  width: 100%;
+ }
+ .card{
+  width: 171px;
+  margin-bottom: -58px;
+}
+.card button{
+  width: 171px;
+}
 }
 
