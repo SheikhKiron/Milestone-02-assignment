@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #FAFCFF;
+  background-color: #F5F8FF;
 }
 
 /*==================== google fonts ===============================*/
@@ -22,7 +22,7 @@ body{
   margin: 0 auto;
 }
 
-/* ========================navbar ===================================== */
+/*========================navbar =====================================*/
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -49,6 +49,28 @@ body{
   color: #000 !important;
 }
 
+/*==================== banner section ============================*/
+.banner{
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-content h1{
+  color: #000000;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.left-content span{
+  color: #E95A08;
+}
+.left-content p{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.4rem;
+  margin-top: 13px;
+}
+.right-content {
+}
 
 
 /*======================== mobile responssive====================*/
@@ -62,6 +84,20 @@ body{
   .nav li:nth-child(-n+3){
     display: none;
   }
-  
+  .banner{
+    flex-direction: column-reverse;
+  }
+ .right-content img{
+  margin-top: -170px;
+  width: 100%;
+ } 
+ .left-content h1{
+  margin-left: 16px;
+  font-size: 1.9rem;
+  margin-top: 28px;
+ }
+ .left-content p{
+  margin: 16px;
+ }
 }
 
