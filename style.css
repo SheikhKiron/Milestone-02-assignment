@@ -252,6 +252,34 @@ background-size: cover;
 
 }
 
+/*========================== footer ====================================*/
+.footer{
+  background-color: #FAFCFF;
+  margin-top: 50px;
+  padding: 20px;
+}
+.footer-parent{
+  max-width: 1120px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 100px;
+}
+.footer li{
+list-style: none;
+color: rgba(0, 0, 0, 0.5);
+font-size: 1rem;
+line-height: 40px;
+}
+.first-col p{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+}
+.images{
+  display: flex;
+  gap: 20px;
+}
+
 /*======================== mobile responssive====================*/
 @media screen and (max-width:576px) {
   html, body{
@@ -365,6 +393,18 @@ margin-bottom: 10px;
 }
 .icon button{
   width: 100px;
+}
+.footer-parent{
+  grid-template-columns: 1fr;
+}
+.sec-col{
+  margin-top: -65px;
+}
+.third-col{
+  margin-top: -97px;
+}
+.images{
+  margin-top: -80px;
 }
 
 }
