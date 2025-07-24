@@ -211,6 +211,46 @@ margin-bottom: 10px;
   border-bottom: 2px solid white; 
 }
 
+/*========================= join section ============================*/
+.join{
+background-image: url(./assets/news-letter-bg.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  height: 533px;
+  margin-top: 120px;
+  padding: 2px;
+  text-align: center;
+}
+.join h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 3.2rem;
+  margin-top: 180px;
+}
+.icon{
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+}
+.icon input{
+  width: 644px;
+  height: 50px;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.icon button{
+  height: 50px;
+  width: 186px;
+  background-color: #E95A08;
+  border: none;
+  color: #ffff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: -20px;
+
+}
 
 /*======================== mobile responssive====================*/
 @media screen and (max-width:576px) {
@@ -313,6 +353,19 @@ margin-bottom: 10px;
   border-bottom: 2px solid white; 
 }
 
+.join{
+  height: 276px;
+}
+.join h1{
+  font-size: 1.5rem;
+  margin-top: 100px;
+}
+.icon input{
+  width: 280px;
+}
+.icon button{
+  width: 100px;
+}
 
 }
 
