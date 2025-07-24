@@ -137,6 +137,21 @@ margin: 16px auto;
   gap: 60px;
   align-items: center;
 }
+.lover-left{
+  position: relative;
+}
+ @keyframes spin {
+  100%{
+    transform: rotate(360deg);
+  }
+ } 
+.img-c{
+  position: absolute;
+  width: 286px;
+  top: -116px;
+  left: 369px;
+  animation: spin 4s ease-in-out infinite;
+}
 .lover-right h1{
   font-size: 3.3rem;
   font-weight: bold;
@@ -297,7 +312,10 @@ line-height: 40px;
  .right-content img{
   margin-top: -170px;
   width: 100%;
- } 
+ }
+.img-c{
+  display: none;
+ }
  .left-content h1{
   margin-left: 16px;
   font-size: 2.3rem;
